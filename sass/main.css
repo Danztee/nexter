@@ -542,4 +542,10 @@ body {
   text-decoration: none;
   font-size: 2rem;
   color: #aaa;
+}
+@media only screen and (max-width: 37.5em) {
+  .copyright a {
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=main.css.map */

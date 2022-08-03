@@ -44,5 +44,10 @@
     text-decoration: none;
     font-size: 2rem;
     color: $color-grey-light-2;
+
+    @media only screen and (max-width: $bp-small) {
+      display: flex;
+      justify-content: center;
+    }
   }
 }
